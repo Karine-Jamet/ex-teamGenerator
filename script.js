@@ -5,7 +5,7 @@ $(document).ready(function() {
   // creation class Hat qui crée les équipes
 
   var Hat = function() {
-    var students = ["Karine", "Jousna", "Jeanne d'arc", "Sarah", "Juliette", "Nadege", "Yannic", "Yannick", "Jerome", "Florent", "KevinL", "KevinC", "Ahmed", "Flavien", "Abdel-malik", "Ryad", "Marc", "Anthony", "Bruno", "Simon", "Adel", "Mohamed"];
+    var students = ["Karine", "Jousna", "Jeanne d'arc", "Sarah", "Juliette", "Nadege", "Yannic", "Yannick", "Jerome", "Florent", "KevinL", "KevinC", "Ahmed", "Flavien", "Abdel-malik", "Ryadh", "Marc", "Anthony", "Bruno", "Simon", "Adel", "Mohamed"];
 
     // Method pour creer une seul équipe
     this.chance = function(nb, studTmp) {
