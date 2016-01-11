@@ -7,6 +7,7 @@ $(document).ready(function() {
   var Hat = function() {
     var students = ["Karine", "Jousna", "Jeanne d'arc", "Sarah", "Juliette", "Nadege", "Yannic", "Yannick", "Jerome", "Florent", "KevinL", "KevinC", "Ahmed", "Flavien", "Abdel-malik", "Ryad", "Marc", "Anthony", "Bruno", "Simon", "Adel", "Mohamed"];
 
+    // Method pour creer une seul équipe
     this.chance = function(nb, studTmp) {
       var newTeam = [];
       var studTmp2 = students.slice(0);
@@ -22,6 +23,7 @@ $(document).ready(function() {
       return studTmp ? [newTeam, studTmp] : newTeam;
     };
 
+    // Method pour creer toute les équipe possible
     this.team = function(nb) {
       var newTeams = [];
       var nbTeam = Math.floor(students.length / nb);
