@@ -1,0 +1,58 @@
+body, html {
+  margin: auto;
+  width: 100vh;
+  height: 10vh;
+  text-align: center;
+}
+.team {
+  border:5px dashed orange;
+  padding-bottom: 30px;
+  margin-top: 40px;
+
+}
+
+input[name=nb]{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 60px;
+  border:2px solid red;
+  background-color: darkorange;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+input[type=submit]{
+  border:2px solid orange;
+  background-color: white;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover{
+  box-shadow: inset 0px 1px 3px red;
+}
+
+
+.resultat{
+  width: 100vh;
+  height: auto;
+  margin-top: 20px;
+  background-color: white;
+  border: 5px dashed orange;
+  display: none;
+  overflow: hidden;
+}
+
+.resultat ul{
+  list-style: none;
+  float:left;
+  padding: 20px;
+  width: 100px;
+}
+.resultat ul li{
+  list-style: none;
+  width: 100px;
+  margin: 0;
+}
